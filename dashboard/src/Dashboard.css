@@ -1,0 +1,68 @@
+/* General styling for the filter section */
+.filter-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter-section label {
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+/* Custom dropdown container */
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown icon styling */
+.dropdown-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #5a67d8; /* Adjust icon color to fit your design */
+}
+
+/* Select box styling */
+.department-dropdown {
+  appearance: none; /* Remove default dropdown arrow */
+  -webkit-appearance: none; /* Remove in WebKit browsers */
+  -moz-appearance: none; /* Remove in Firefox */
+  background-color: #f7fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 5px;
+  padding: 10px 40px 10px 40px; /* Adjust padding to account for the icon */
+  font-size: 16px;
+  color: #4a5568;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+  transition: border-color 0.2s ease-in-out;
+}
+
+/* Dropdown hover effect */
+.department-dropdown:hover {
+  border-color: #5a67d8; /* Color on hover */
+}
+
+/* Remove the default arrows in Chrome, Safari, Edge, and Opera */
+.department-dropdown::-webkit-inner-spin-button,
+.department-dropdown::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Remove the default arrows in Firefox */
+.department-dropdown {
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* Adjust the width of the select to fit the content */
+.department-dropdown option {
+  padding: 10px;
+}

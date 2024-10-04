@@ -1,0 +1,24 @@
+.filters {
+    display: flex;
+    justify-content: space-between; /* Spread filters evenly */
+    align-items: center; /* Vertically center filters */
+    gap: 20px; /* Space between each filter */
+    margin-bottom: 20px; /* Add some space below the filters */
+  }
+  
+  .filters div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filters label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .filters select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
